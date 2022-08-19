@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/icon" href="image/main.png">
+        <title>Quezon City University</title>
+        <link rel="stylesheet" href="qcustyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,400;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <!-----For Navigation----->
+        <section class="sub-header">
+
+            <nav>
+                <a href="qcu.html"><img src="image/qculogo1.webp"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="qcu.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div> 
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+
+        </section>
+
+<!-----About Us------>
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>Number 1 Local University Of Employable Graduate's</h1>
+            <p>The Quezon City University, formerly known as the Quezon City 
+            Polytechnic University, came into existence on March 1, 1994, by 
+            virtue of the City Council Ordinance No. SP-171. The institution was 
+            created to undertake skilled workers training in response to the 
+            manpower requirement by industry and business establishments within 
+            the city. The organization of the Polytechnic as a local government 
+            educational institution included the old Skills and Training Center. 
+            The QCP established its reputation among local government units as a 
+            show window and model technology-based institution, paving the way 
+            for its recognition by the Technical Education Skills and Development 
+            Authority (TESDA) and developing a strong alliance with the Japanese 
+            International Cooperation Agency (JICA).</p>
+            <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="oldImage/about.jpg">
+        </div>
+    </div>
+
+</section>
+
+<!------Footer--->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The Quezon City University, formerly known as the Quezon City 
+    Polytechnic University, came into existence on March 1, 1994, by 
+    virtue of the City Council Ordinance No. SP-171. The institution was 
+    created to undertake skilled workers training in response to the 
+    manpower requirement by industry and business establishments within 
+    the city.</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p class="credits">&#169; Made by</i> Ariel Calipay</p>
+</section>
+
+<!----JavaScript For Toggle Menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+
+</script>
+    </body>
+</html>
